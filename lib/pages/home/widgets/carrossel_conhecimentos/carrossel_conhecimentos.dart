@@ -38,7 +38,7 @@ class _CarrosselConhecimentoState extends State<CarrosselConhecimento> {
               }
             ),
             items: imgconList.map((item) => Center(
-              child: Image.network(item, fit: BoxFit.cover, )
+              child: Image.asset(item, fit: BoxFit.cover, )
             )).toList(),
           ),
           Row(
